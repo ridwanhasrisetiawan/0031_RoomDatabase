@@ -5,5 +5,7 @@
     <string name="nama">Nama</string>
     <string name="alamat">Alamat</string>
     <string name="telpon">Telepon</string>
-
+    <string name="required_field">* Wajib diisi</string>
+    <string name="deskripsi_no_item">Tidak ada data siswa</string>
+    <string name="back">Kembali</string>
 </resources>
