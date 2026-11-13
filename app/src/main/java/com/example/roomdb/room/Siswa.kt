@@ -1,0 +1,5 @@
+package com.example.roomdb.room
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+data class Siswa()
