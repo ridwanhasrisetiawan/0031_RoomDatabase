@@ -11,3 +11,8 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 
+class DetailViewModel (
+    savedStateHandle: SavedStateHandle,
+    private val repositoriSiswa: RepositoriSiswa) : ViewModel(){
+    private val idSiswa: Int = checkNotNull(savedStateHandle[DestinasiDetailSiswa.itemIdArg])
+
